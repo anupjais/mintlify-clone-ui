@@ -1,0 +1,169 @@
+:root{
+    --text-color: #ffffff;
+    --text-hover-color: #d3d0d0;
+    --accent-color: #5b5959;
+    --accent-hover-color: #242323;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    /* background-color: var(--accent-hover-color); */
+    background-color: #000;
+    color: #fff;
+}
+
+nav {
+    display: block;
+    /* background-color: #fff; */
+    background: transparent;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 20px auto; */
+    padding: 20px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    padding: 5px 10px;
+}
+
+.header a:hover{
+    background-color: var(--accent-hover-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.header button{
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: var(--accent-hover-color);
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+#str-free{
+    background-color: var(--text-color);
+    color: #000;
+    cursor: pointer;
+}
+
+#str-free:hover{
+    background: var(--text-hover-color);
+    /* cursor: pointer; */
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* 2. Hero Section */
+#mintli-docs{
+    background-color: var(--accent-color);
+    /* color: #fff; */
+    padding: 4px 4px ;
+    border-radius: 20px;
+    /* width: 500px; */
+}
+
+#mintli-docs:hover{
+    background-color: var(--accent-hover-color);
+}
+
+#mintli-docs button{
+    border: none;
+    background-color: #038026;
+    color: var(--text-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#mintli-docs a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 12px;
+    padding-right: 5px;
+}
+#mintli-docs span{
+    background-color: var(--text-color);
+    font-size: 10px;
+    color: #000;
+    padding: 2px 4px;
+    border-radius: 50%;
+}
+
+#main-head{
+    font-size: 24px;
+    font-weight: lighter;
+    /* word-wrap: normal; */
+    /* align-items: flex-start; */
+}
+#head-desc{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#email-inp{
+    background-color: var(--accent-hover-color);
+    /* color: #fff; */
+    padding: 6px 8px ;
+    border-radius: 30px;   
+    width: 400px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* #email-inp:hover{
+    background-color: var(--accent-hover-color);
+} */
+#email-inp input{
+    flex: 1; 
+    background: none;
+    height: 38px;
+    border: none;
+    /* padding: 0 5px; */
+    outline: none;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    color: var(--text-color);
+    /* justify-content: end; */
+    margin-left: 10px;
+}
+
+#email-inp input::placeholder{
+    color: #5b5959;
+}
+
+#strt-now{
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: var(--text-color);
+    border: none;
+    color: #000;
+    cursor: pointer;
+    justify-content: end;
+}
+
+#strt-now:hover{
+    background: var(--text-hover-color);
+    /* cursor: pointer; */
+}
